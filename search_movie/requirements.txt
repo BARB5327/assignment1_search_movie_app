@@ -1,0 +1,9 @@
+streamlit
+google-cloud-bigquery
+google-cloud-storage
+google-cloud
+pandas
+numpy
+os
+requests
+
