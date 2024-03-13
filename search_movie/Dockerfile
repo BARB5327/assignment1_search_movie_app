@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.9
 
 WORKDIR /app
 
@@ -7,11 +7,8 @@ RUN pip3 install -r requirements.txt
 
 COPY . /app
 
-# Expose the port that Streamlit runs on
-EXPOSE 8501
+# Set the environment variable PORT to 8501
+ENV PORT 8501
 
-# Set the environment variable PORT
-ENV PORT 8080
-
-# Start the Streamlit app
-CMD ["streamlit", "run", "--server.port", "8080", "app.py"]
+# Start the Streamlit app and listen on port 8501
+CMD ["streamlit", "run", "--server.port", "8501", "app.py"]
