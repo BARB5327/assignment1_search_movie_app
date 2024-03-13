@@ -129,7 +129,7 @@ if user_input and not st.session_state['selected']:
                 st.session_state['user_input'] = title  
                 st.session_state['selected_movie_id'] = movieId
                 st.session_state['selected'] = True
-                st.rerun()
+                st.experimental_rerun()
     else: 
         st.write("NO RESULST FOUND")
 
@@ -161,7 +161,7 @@ if 'selected_movie_id' in st.session_state and st.session_state['selected_movie_
 
 st.markdown('<hr style="border:2px solid gray; margin-bottom: 20px;"/>', unsafe_allow_html=True)
 
-
+st.title(f"***Advanced research***")
 
 languages = ["See all languages"] + get_available_languages()  
 genres = ["See all genres"] + get_available_genres()  
