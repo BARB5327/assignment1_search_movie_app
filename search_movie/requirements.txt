@@ -2,7 +2,5 @@ streamlit>=1.0.0,<2.0.0
 google-cloud-bigquery
 google-cloud-storage
 google-cloud
-pandas
-numpy
 requests
 
