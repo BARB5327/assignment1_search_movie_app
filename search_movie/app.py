@@ -3,7 +3,7 @@ from google.cloud import bigquery
 import os
 import requests
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "JSON_KEY.json"
+#os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "JSON_KEY.json"
 client = bigquery.Client(project="cloud-advanced-analytics-1")
 
 
