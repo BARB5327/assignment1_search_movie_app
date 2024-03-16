@@ -4,7 +4,7 @@
 
 The Movie Search App is a dynamic web application built with Streamlit, designed to offer an immersive and interactive way to explore movie data. Leveraging the power of Google BigQuery, Cloud Functions, and the TMDB API, this application provides users with rich movie information, including titles, posters, release dates, and average ratings. Whether you're a film enthusiast looking for detailed insights into your favorite movies or someone exploring new genres, this app brings the world of cinema to your fingertips.
 
-#### You can find the link for the app here: https://search-movie-app-tq2avlclea-oa.a.run.app/
+#### You can find the link for the app here: https://search-movie-app-v3-tq2avlclea-oa.a.run.app/
 
 ## Key Features
 
