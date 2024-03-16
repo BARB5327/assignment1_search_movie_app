@@ -176,7 +176,7 @@ with col2:
     
 
 
-if st.button('Afficher les films'):
+if st.button('Display movies'):
     movies = get_filtered_movies(selected_language, selected_genre, release_year_after, min_average_rating)
     st.markdown('<hr style="border:2px solid gray; margin-bottom: 20px;"/>', unsafe_allow_html=True)
 
