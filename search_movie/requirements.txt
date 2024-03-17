@@ -3,4 +3,5 @@ google-cloud-bigquery
 google-cloud-storage
 google-cloud
 requests
+Pillow
 

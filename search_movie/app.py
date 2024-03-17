@@ -2,11 +2,15 @@ import streamlit as st
 from google.cloud import bigquery
 import os
 import requests
+from PIL import Image 
+import base64
+import io
 
+#Connect to the google cloud when runing locally 
 #os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "JSON_KEY.json"
 client = bigquery.Client(project="cloud-advanced-analytics-1")
 
-
+# python function and big query functions
 def get_autocomplete_titles(user_input):
     query = f"""
     SELECT title, tmdbId FROM `cloud-advanced-analytics-1.assignment1.movies`
@@ -108,6 +112,8 @@ def get_available_rating():
     return [row.rating for row in results]
 
 
+#Streamlit design 
+
 st.title("Search movie ")
 
     
@@ -207,3 +213,23 @@ if st.button('Display movies'):
                     st.error(f"Movie details of  {title} cannot be uploaded.")
     else:
         st.error("No film corresponding to the criteria.")
+
+#background 
+image_path = 'background.jpg'  
+image = Image.open(image_path)
+
+buffered = io.BytesIO()
+image.save(buffered, format="PNG")
+img_data = buffered.getvalue()
+base64_img_data = base64.b64encode(img_data).decode()
+
+page_bg_img = f"""
+<style>
+[data-testid="stAppViewContainer"] {{
+background-image: url("data:image/jpeg;base64,{base64_img_data}");
+background-size: cover;
+}}
+
+</style>
+"""
+st.markdown(page_bg_img, unsafe_allow_html=True) 
