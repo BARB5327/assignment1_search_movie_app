@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Movie Search App is a dynamic web application built with Streamlit, designed to offer an immersive and interactive way to explore movie data. Leveraging the power of Google BigQuery, Cloud Functions, and the TMDB API, this application provides users with rich movie information, including titles, posters, release dates,average ratings, trailers and much more. Whether you're a film enthusiast looking for detailed insights into your favorite movies or someone exploring new genres, this app is custom for you 
+The Movie search App is an engaging online platform created using Streamlit, aimed at providing a comprehensive and interactive experience for movie exploration. Utilizing Google BigQuery, Cloud Functions, and the TMDB API, it offers detailed information on movies, such as titles, posters, release dates, average ratings, trailers, and more. It's the perfect tool for movie buffs seeking in-depth details about their preferred films or for individuals venturing into unfamiliar genres.
 
 #### You can find the link for the app here: https://search-movie-app-v4-tq2avlclea-oa.a.run.app/
 
@@ -15,7 +15,7 @@ The Movie Search App is a dynamic web application built with Streamlit, designed
 
 ## Technologies Used
 
-- **Streamlit**: An open-source app framework for Machine Learning and Data Science projects, perfect for creating beautiful, interactive web apps.
-- **Google BigQuery**: A serverless, highly scalable, and cost-effective multi-cloud data warehouse designed for business agility.
-- **Google Cloud Functions**: A serverless execution environment for building and connecting cloud services with code.
+- **Streamlit**: An open-source app to create application in python language. 
+- **Google BigQuery**: A multi-cloud data warehouse built for scalability and business flexibility.
+- **Google Cloud Functions**: An environment for building and connecting cloud services with code.
 - **TMDB API**: Provides access to a vast database of movie information, which powers the app's detailed movie descriptions, ratings, and posters.
