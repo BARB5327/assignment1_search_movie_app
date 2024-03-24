@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "cloud-advanced-analytics-1",
+  "private_key_id": "b416b712ec2e923b071f6c5c2e66225cea6842b9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCTVLJXvfLwKKu7\ng+Ectith20OVy4cRLMtsVL+ieoYTX+iHPEsFooZOWSfXtata1g7d+hfLGyxjkhQe\nKkVQDY9tuhoYITfjjO3xsV0nsu4NxQgmBO0lWGqbFojp8LsOEwQf8dJHq6rZ3y2h\nafOFWKHvAQ2Ra2dzCKRRUY9L7db33xWKhyFBO0keLH6qb/GuvWJ5dzs+3u7puB3W\nzOsfrOrar/msriSRi1RkMPinLglMFzGEcJQZ+jAm1Nf1LYxsYF8eqrLRSUKsI7a5\nQH5lg6XNgQyn3vdft0yzhHcQ6l4SoYwTjjuWEbjExUo9D8jtq88vh6L3qpuxC/R9\n3LDcHqi1AgMBAAECggEARiQ/l/hNzbp/MBH0PXgZJUh/X7R7BFlAK74ZUiBk7ppt\nmNzCltcue+SETHUoNGHOyC2F4GN6eZkVTNsxDpC2JTZBsBU4h3QT4EphoEHWheW1\nIGyd/naeomFTI5VBaMzy3MaDJy36dCmFjuBjWKu+xIvKyt3IbYLCwBhFUY/VFUJ+\nEiYYwWCcozNTBxl63qV+1H/d6intZxnYZu+eVuatrVlgKlPwoJSkh4Yp5QPPtMb3\nKswNksOSrWoKDNbHKPXdC9EpzvD1u3pS8TVSaqwXD00iCn4YZfy3zfkNHSmuEAlZ\nW/t9suhjIYJeh1+nCaGWqCXRDJjQQBmOtKtFSkMebQKBgQDCkcp4TLZelWmzAsHI\npNeaWwTunGdfHis/88kgW75K2L+0JQkA45MFTGMZSmtIupi8SKaqvFDHNC5YY6Yx\nPd450Simup8qRiGbv3uMaNS14+t2rvX3Fj4GQQfrAY3PFgATNoSbuz+jtkwhRxZ9\noK5vND8CKtKskVTGX0LfCXhiqwKBgQDB2M95eliC5FPY85y3jl7Oyh6Oni91/Zb2\neoJf3CLm1O0d4NCPVNJmzb3LtdGa9eqABEXVt3qt+9NkOxmf02KMeS5HU6lLPYyw\nt+HQJFugjUDeJ1DVp2K63EGxYdarcZJBzlokMis+hD3ndqhM8HujIeI606NkMQ3T\nO32JrFAiHwKBgQCANziYS90FuSodN9zhTpdxdTdr0g9go+3WR90rAKoGgozZtmoX\nduAkZrELMno+RBBwSuPhsRT+IInF32zeGCoAKa/DJ0nJvstY6jcNUOuTLS22WRdn\nCvY2gtYn7C853wKPpqZ+RUdrp67FYyYUBTXNvD0lPXj1FRQrYQ0dEw2M3wKBgEtD\nB4LNurHPPrK8Gvu1fh/hn62Vwy2XcNZvyFC5op9myk1QbQlJUItzlB4UkLYOhqZ/\ngjGxFCOa439F5vQD2X5ayloNJGy/D/HI4xayFxUl4qqeLydU3uNYAvWA3B0icju0\nh5EIHXwfUf2dN0jwEcDLtg9K/mQ3G3wI2/vo+A/XAoGBAK+5xLMRAjuL3P1+kI3U\n7Hebhf8VBmcg+2JMMKylgEeIHvItuU9nCFJl59Tsl8w8f1VN2tuKBPNe5+qHNsIt\nwzwzHiZJH9o/CI+eXdOBFo8m/WyD0ayII3m+0auMP3RqQJJQGRGl15eMVAkzypQu\ng45IL1Nc9Gl29QgzgtewoUcp\n-----END PRIVATE KEY-----\n",
+  "client_email": "big-rating-dataset-assignment1@cloud-advanced-analytics-1.iam.gserviceaccount.com",
+  "client_id": "113159295311435168459",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/big-rating-dataset-assignment1%40cloud-advanced-analytics-1.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
