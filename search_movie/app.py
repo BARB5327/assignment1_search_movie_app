@@ -7,7 +7,6 @@ import base64
 import io
 
 #Connect to the google cloud when runing locally 
-#os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "JSON_KEY.json"
 client = bigquery.Client(project="cloud-advanced-analytics-1")
 
 #IN THIS SECTION THERE IS ALL THE PYTHON FUNCTIONS AND BIG QUERY FUNCTIONS
